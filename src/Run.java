@@ -1,23 +1,23 @@
+import baekjoon.Factorial2;
 import medium.AddTwoNumbers;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class Run {
 
-    public static void main(String[] args) {
+    public static int N;
+    public static void main(String[] args) throws IOException {
 
-        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
-        AddTwoNumbers.ListNode l1 = new AddTwoNumbers.ListNode(9);
-        AddTwoNumbers.ListNode l2 = new AddTwoNumbers.ListNode(1
-                                    , new AddTwoNumbers.ListNode(9
-                                    , new AddTwoNumbers.ListNode(9
-                , new AddTwoNumbers.ListNode(9
-                , new AddTwoNumbers.ListNode(9
-                , new AddTwoNumbers.ListNode(9
-                , new AddTwoNumbers.ListNode(9
-                , new AddTwoNumbers.ListNode(9
-                , new AddTwoNumbers.ListNode(9
-                , new AddTwoNumbers.ListNode(9))))))))));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
 
-        addTwoNumbers.addTwoNumbers(l1,l2);
+        Factorial2 factorial2 = new Factorial2();
+        int answer = factorial2.factorial(n);
+        System.out.println(answer);
 
 
     }
