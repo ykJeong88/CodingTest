@@ -12,19 +12,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-       /* BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken());
-
-        Factorial2 factorial2 = new Factorial2();
-        int answer = factorial2.factorial(n);
-        System.out.println(answer);*/
-
-        int[] nums = new int[] {-3,4,3,90};
-        int target = 0;
-
-        TwoSum twoSum = new TwoSum();
-        int[] answer = twoSum.twoSum(nums, target);
+       AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+       addTwoNumbers.addTwoNumbers(new AddTwoNumbers.ListNode(0), new AddTwoNumbers.ListNode(0));
 
     }
 }
