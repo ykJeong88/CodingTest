@@ -11,8 +11,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        ReverseInteger reverseInteger = new ReverseInteger();
-        reverseInteger.reverse(0);
+        StringtoInteger stringtoInteger = new StringtoInteger();
+        System.out.println(stringtoInteger.myAtoi(""));
 
     }
 }
