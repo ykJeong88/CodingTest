@@ -11,8 +11,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        ZigzagConversion zigzagConversion = new ZigzagConversion();
-        zigzagConversion.convert("", 1);
+        ReverseInteger reverseInteger = new ReverseInteger();
+        reverseInteger.reverse(0);
 
     }
 }
