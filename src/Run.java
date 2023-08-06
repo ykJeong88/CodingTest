@@ -1,8 +1,5 @@
 import baekjoon.Factorial2;
-import medium.AddTwoNumbers;
-import medium.LengthOfLongestSubstring;
-import medium.LongestPalindrome;
-import medium.TwoSum;
+import medium.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -14,8 +11,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        LongestPalindrome length = new LongestPalindrome();
-        length.longestPalindrome("");
+        ZigzagConversion zigzagConversion = new ZigzagConversion();
+        zigzagConversion.convert("", 1);
 
     }
 }
