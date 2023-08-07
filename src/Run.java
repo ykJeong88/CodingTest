@@ -11,8 +11,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        StringtoInteger stringtoInteger = new StringtoInteger();
-        System.out.println(stringtoInteger.myAtoi(""));
+        ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
+        containerWithMostWater.maxArea(new int[]{0});
 
     }
 }
