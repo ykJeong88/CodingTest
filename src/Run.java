@@ -11,8 +11,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        IntegerToRoman integerToRoman = new IntegerToRoman();
-        integerToRoman.intToRoman(0);
+        A3Sum a3Sum = new A3Sum();
+        a3Sum.threeSum(new int[]{0});
 
     }
 }
