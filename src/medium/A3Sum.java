@@ -43,8 +43,6 @@ public class A3Sum {
                     }
                 }
 
-
-
                 if (sum <= 0) {
                     lt++;
                 } else {
