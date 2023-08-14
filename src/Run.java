@@ -11,8 +11,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        A3SumClosest a3SumClosest = new A3SumClosest();
-        a3SumClosest.threeSumClosest(new int[]{0},0);
+        LetterCombinations letter = new LetterCombinations();
+        letter.letterCombinations("s");
 
     }
 }
