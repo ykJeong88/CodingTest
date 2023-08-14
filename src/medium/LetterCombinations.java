@@ -7,7 +7,7 @@ import java.util.List;
 public class LetterCombinations {
 
     public List<String> letterCombinations(String digits) {
-        digits = "9387";
+
         List<String> answer = new ArrayList<>();
         if("".equals(digits)) return new ArrayList<>();
 
@@ -31,6 +31,8 @@ public class LetterCombinations {
         String[] answerArr = new String[size];
         Arrays.fill(answerArr, "");
 
+        int depth = answerArr.length;
+
         for(int l = 0; l < digitArr.length; l++) {
             String[] nowArr = null;
             switch(digitArr[l]) {
@@ -43,9 +45,8 @@ public class LetterCombinations {
                 case '8' : nowArr = number8; break;
                 case '9' : nowArr = number9; break;
             }
-            int depth = (int) (answerArr.length / Math.pow(nowArr.length, l+1));
-            System.out.println(depth);
-            System.out.println(answerArr.length);
+            depth = depth / nowArr.length;
+
             int countDepth = 0;
             int j = 0;
             for(int i = 0; i < answerArr.length; i++)  {
