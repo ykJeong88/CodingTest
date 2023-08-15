@@ -11,8 +11,8 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        LetterCombinations letter = new LetterCombinations();
-        letter.letterCombinations("s");
+        A4Sum a4Sum = new A4Sum();
+        a4Sum.fourSum(new int[]{0}, 0);
 
     }
 }
