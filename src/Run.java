@@ -4,6 +4,7 @@ import medium.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class Run {
@@ -11,8 +12,9 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        A4Sum a4Sum = new A4Sum();
-        a4Sum.fourSum(new int[]{0}, 0);
-
+        NthNode nthNode = new NthNode();
+        NthNode input = new NthNode();
+        NthNode.ListNode node = input.new ListNode(0);
+        nthNode.removeNthFromEnd(node, 1);
     }
 }
