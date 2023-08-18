@@ -12,9 +12,7 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        NthNode nthNode = new NthNode();
-        NthNode input = new NthNode();
-        NthNode.ListNode node = input.new ListNode(0);
-        nthNode.removeNthFromEnd(node, 1);
+        GenerateParentheses generateParentheses = new GenerateParentheses();
+        generateParentheses.generateParenthesis(2);
     }
 }
