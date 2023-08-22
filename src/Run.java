@@ -12,7 +12,7 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        GenerateParentheses generateParentheses = new GenerateParentheses();
-        generateParentheses.generateParenthesis(2);
+        SwapPairs swapPairs = new SwapPairs();
+        swapPairs.swapPairs(new ListNode(0));
     }
 }
