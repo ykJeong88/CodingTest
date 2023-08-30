@@ -12,7 +12,7 @@ public class Run {
     public static int N;
     public static void main(String[] args) throws IOException {
 
-        SwapPairs swapPairs = new SwapPairs();
-        swapPairs.swapPairs(new ListNode(0));
+        DivideTwoInteger divideTwoInteger = new DivideTwoInteger();
+        divideTwoInteger.divide(0,0);
     }
 }
